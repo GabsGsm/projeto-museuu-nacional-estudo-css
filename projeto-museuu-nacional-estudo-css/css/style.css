@@ -1,0 +1,26 @@
+/*
+    Configurações gerais
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("../img/fundo.png") repeat-x;
+}
+#principal{
+    margin: 0px auto;
+    width: 1090px;
+    border: 1px solid yellow;
+}
+
+/*
+    layout cabeçalho
+*/
+header{
+    border: 1px solid red;
+}
+#cabecalho{
+    border: 1px solid blue;
+
+}
