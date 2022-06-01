@@ -1,5 +1,5 @@
 /*
-    Configurações gerais
+*    Configurações gerais
 */
 *{
     margin: 0;
@@ -23,13 +23,9 @@ a:hover{
 }
 
 /*
-    layout cabeçalho
+*   layout cabeçalho
 */
-header{
-    border: 1px solid red;
-}
 #cabecalho{
-    border: 1px solid blue;
     display: flex;
     align-items: center;
     margin: 15px 0;
@@ -61,4 +57,64 @@ header{
 }
 .nav-cabecalho li a:hover{
     border-bottom: 1px solid #535858;
+}
+/*
+*   Layout do conteudos
+*/
+main{
+    border: 1px solid green;
+    display: flex;
+}
+/*
+*   Conteudo
+*/
+section{
+    border: 1px solid red;
+    padding-right: 20px;
+}
+.postagem{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caixa{
+    width: 310px;
+    margin: 15px 0 0 30px;
+}
+.caixa h4{
+    color: #227115;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.caixa ul{
+    padding-left: 40px;
+}
+.caixa p {
+    margin-bottom: 10px;
+}
+/*
+*   Conteudo lateral
+*/
+aside{
+    border: 1px solid blue;
+    background: #ebe7dd;
+    display: flex;
+    flex-direction: column;
+}
+.caixa-lateral{
+    padding: 15px 25px;
+}
+.fundo-visita{
+    background: #cdc8b1;
+    margin-top: 10px;
+}
+.reserva-visita{
+    
+}
+.reserva-visita h4{
+    margin-top: 10px;
+}
+.caixa-lateral h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 8px;
 }
