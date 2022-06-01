@@ -1,0 +1,135 @@
+/*
+*    Configurações gerais
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f4f2ec url("../img/fundo.png") repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+#principal{
+    margin: 0px auto;
+    width: 1090px;
+    border: 1px solid yellow;
+}
+a{
+    color: #af670a;
+    text-decoration: none;
+}
+a:hover{
+    color: #227115;;
+}
+
+/*
+*   layout cabeçalho
+*/
+#cabecalho{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.logo{
+    flex-grow: 1;
+}
+.logo h1 a{
+    width: 248px;
+	height: 21px;
+	text-indent: -9999px;
+	display: block;
+	background: url(../img/logo.png) no-repeat;
+}
+.nav-cabecalho {
+    flex-grow: 0.1;
+}
+.nav-cabecalho ul{
+    list-style: none;
+}
+.nav-cabecalho ul li{
+    text-decoration: none;
+    float: left ;
+
+}
+.nav-cabecalho li a {
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+.nav-cabecalho li a:hover{
+    border-bottom: 1px solid #535858;
+}
+/*
+*   Layout do conteudos
+*/
+main{
+    border: 1px solid green;
+    display: flex;
+}
+/*
+*   Conteudo
+*/
+section{
+    border: 1px solid red;
+    padding-right: 20px;
+}
+.postagem{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caixa{
+    width: 310px;
+    margin: 15px 0 0 30px;
+}
+.caixa h4{
+    color: #227115;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.caixa ul{
+    padding-left: 40px;
+}
+.caixa p {
+    margin-bottom: 10px;
+}
+/*
+*   Conteudo lateral
+*/
+aside{
+    border: 1px solid blue;
+    background: #ebe7dd;
+    display: flex;
+    flex-direction: column;
+}
+.caixa-lateral{
+    padding: 15px 25px;
+}
+.fundo-visita{
+    background: #cdc8b1;
+    margin-top: 10px;
+}
+.reserva-visita{
+    
+}
+.reserva-visita h4{
+    margin-top: 10px;
+}
+.reserva-visita form input#data{
+    width: 80px;
+}
+.reserva-visita form input#pessoas{
+    width: 25px;
+}
+.reserva-visita form input.botao{
+    display: block;
+    width: 100%;
+    background: #86521a;
+    border: none;
+    padding: 8px 12px;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+.caixa-lateral h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
