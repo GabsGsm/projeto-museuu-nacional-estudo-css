@@ -113,6 +113,21 @@ aside{
 .reserva-visita h4{
     margin-top: 10px;
 }
+.reserva-visita form input#data{
+    width: 80px;
+}
+.reserva-visita form input#pessoas{
+    width: 25px;
+}
+.reserva-visita form input.botao{
+    display: block;
+    width: 100%;
+    background: #86521a;
+    border: none;
+    padding: 8px 12px;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
 .caixa-lateral h4{
     color: #86521a;
     text-transform: uppercase;
